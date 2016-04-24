@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <View
+        android:id="@+id/v_circle_1"
+        android:layout_width="@dimen/postajob_animation_circle_size"
+        android:layout_height="@dimen/postajob_animation_circle_size"
+        android:background="@drawable/co_postajob_anim_circle"
+        android:layout_gravity="center"
+        />
+
+    <View
+        android:id="@+id/v_circle_2"
+        android:layout_width="@dimen/postajob_animation_circle_size"
+        android:layout_height="@dimen/postajob_animation_circle_size"
+        android:background="@drawable/co_postajob_anim_circle"
+        android:layout_gravity="center"
+        />
+
+    <View
+        android:id="@+id/v_circle_3"
+        android:layout_width="@dimen/postajob_animation_circle_size"
+        android:layout_height="@dimen/postajob_animation_circle_size"
+        android:background="@drawable/co_postajob_anim_circle"
+        android:layout_gravity="center"
+        />
+
+    <com.jobandtalent.coolanimation.PostAJobAnimationCircleImageView
+        android:id="@+id/v_avatar_1"
+        android:layout_width="@dimen/postajob_animation_avatar"
+        android:layout_height="@dimen/postajob_animation_avatar"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        />
+
+    <com.jobandtalent.coolanimation.PostAJobAnimationCircleImageView
+        android:id="@+id/v_avatar_2"
+        android:layout_width="@dimen/postajob_animation_avatar"
+        android:layout_height="@dimen/postajob_animation_avatar"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        />
+
+
+</merge>
