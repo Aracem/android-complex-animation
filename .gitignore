@@ -30,3 +30,13 @@ proguard/
 
 # Android Studio captures folder
 captures/
+.gradle
+*.iml
+reports/
+.idea/
+.idea
+.idea/libraries/
+.idea/vcs.xml
+app/libs/
+app/src/main/res/values-w820dp/
+projectFilesBackup/
